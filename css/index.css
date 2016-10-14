@@ -1,0 +1,117 @@
+.head{width: 100%;height: 100px;position: relative;border-bottom: 4px solid #4daf69; color: #435548;}
+.head a{color: #435548;}
+.head .logo{position: absolute;top:25px;left: 30px;}
+.head p{font-size: 18px;height: 30px;line-height: 30px;/*color: #435548;*/position: absolute;top:35px;left: 320px;padding-left: 10px;border-left: 1px solid #c6ccc8;}
+.head ul{position: absolute;top:36px;right: 10px;}
+.head ul li{float: left;font-size: 14px;line-height: 28px;height: 28px;padding-right: 10px;border-right: 1px solid #b2ddbe;margin-right: 10px;}
+.head ul li span{color: #f39800;margin-left: 5px;}
+.head ul li.delate{border:none;}
+.head ul li img{vertical-align: middle;margin-right: 5px;}
+.head ul .logon{background: url();}
+
+.content{width: auto; margin-left: 0px;}
+.connav{float: left; /*width:310px;*/ width: 22%; position: relative;}
+.connav .navtop{font-size: 20px;color: #fff;line-height: 55px;height: 55px;padding-left: 45px;background: url(../images/prev.png) no-repeat 265px center #018d29;}
+.connav .navbtm{ position:absolute; bottom:0px; left:0px; width:85%;font-size: 20px;color: #fff;line-height: 55px;height: 55px;padding-left: 45px;background: center #018d29;margin-top: 69px;}
+.connav ul{background: #fff;}
+.connav ul li{width: 270px;}
+.connav ul li a{padding-left: 45px;font-size: 16px;line-height: 55px;height: 55px;display: block;}
+.connav ul li a img{vertical-align: middle;margin-right: 10px;}
+.connav ul li:nth-child(even) a{background: #f5f5f5;margin-left: 20px;padding-left: 25px;width: 230px;}
+.connav ul li span{display: inline-block;width: 2em;*zoom:1;*display: inline;}
+.connav .barbox{position: absolute;top:55px;right: 2px;width: 20px;height: 715px;}
+.connav .navbar{position: relative;height: 715px;background: #f5f5f5;}
+.connav ul li dl{width: 100%; display: none;}
+.connav ul li dl dd { padding-left: 75px;}
+.connav ul li dl dd a{
+	width: 100%;
+	height: auto;
+	line-height: 25px;
+	padding: 0px;
+	font-size: 14px;
+}
+.connav ul li dl dd a:hover{
+	color: #018d29;
+}
+.connav ul li:nth-child(even) dl dd  a{background:none; margin-left: 0px;padding-left: 0px;width: auto;}
+.right{
+	float: right;
+	width: 77% !important;
+}
+.workbox { width: 49%; margin-right: 1%; float: left; margin-bottom: 15px;}
+.workbox .hd {position: relative;}
+.workbox .hd .tab{height: 42px;background: #e5e5e5;}
+.hd .btns{position: absolute;top:10px;right:0;}
+.hd .btns li{float: left;margin-right: 10px;}
+.tab a{display: inline-block;*zoom:1;*display: inline;font-size: 16px;line-height: 42px;height: 42px;padding-left: 60px; padding-right:10px;text-align: right;}
+.tab .workon{background: url(../images/icon13.png) no-repeat 20px center;}
+.tab .note-out{background: url(../images/icon15.png) no-repeat 20px center;}
+.tab .note-in{background: url(../images/icon16.png) no-repeat 20px center;}
+.tab .active{border-top: 2px solid #018d29; background:url(../images/icon13.png) no-repeat 20px center #fff;}
+
+.workbox .bd{
+	width: 100%;
+	font-size: 14px;
+	color: #808e82;
+}
+.workbox .bd a{
+	color: #808e82;
+}
+.workbox .bd dl{padding-left: 60px; line-height: 40px;}
+.workbox .bd dl dd{ line-height: 40px; position: relative;}
+.workbox .bd dl dd span{position: absolute; right: 20px; top: 0px;}
+.workbox .bd .more{ text-align: right; padding-right: 20px;}
+
+.right .bar{
+	background: #eef4f0;
+	height: 55px;
+	line-height: 55px;
+	padding-left: 15px;
+	font-size: 14px;
+}
+.right .bar a{
+	color: #435548;
+	margin-right: 15px;
+}
+.right .bar a.close{
+	background: url(../images/icon_close.png) right center no-repeat;
+	padding-right: 30px;
+}
+.right h1{
+	font-size: 30px;
+	color: #018d29;
+	margin: 10px;
+	font-weight: normal;
+}
+.right .box{
+	width: 90%;
+	margin: 0% 5%;
+}
+.right .box .title{
+	width: 100%;
+	background: #018d29;
+	color: #FFFFFF;
+	text-align: center;
+	height: 55px;
+	line-height: 55px;
+	font-size: 18px;
+}
+.right .box .subtitle{
+	margin: 10px 0px;
+	text-align: center;
+}
+.right .box h2{
+	font-size: 16px;
+	color: #435548;
+	text-align: center;	
+	margin: 15px 0px;		
+}
+.right .box .date{
+	font-size: 16px;
+	margin: 10px 0px;
+	color: #435548;
+}
+.right .box .date span{
+	color: #435548;
+}
+
